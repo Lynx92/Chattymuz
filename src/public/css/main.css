@@ -1,3 +1,11 @@
 #contentWrap {
   display: none;
 }
+
+body {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.just {
+  margin-top: 2rem;
+}

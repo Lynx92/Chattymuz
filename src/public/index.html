@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/main.css" />
-    <title>Chat</title>
+    <title>Chattymuz</title>
   </head>
   <body>
     <div class=".card col-md-4 mt-5 mx-auto" id="nickWrap">
@@ -28,36 +28,34 @@
     </div>
 
     <div class="container" id="contentWrap">
-      <div class="row">
-            <div class="col-md-6 offset-md-1mt4">
-                    <div class="card">
-                      <div class="card-header"></div>
-                      <h4>Let´s Chat</h4>
-                    </div>
-            
-                    <div id="chat" class="card-body"></div>
-                    
-                    <form id="message-form" class="card-footer">
-                      <div class="input-group">
-                        <input type="text" id="message" class="form-control" />
-                        <div class="input-group-append">
-                          <input type="submit" class="btn btn-warning" />
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-            
-                <div class="card col-md-3">
-                  <div class="card-header">
-                    <h3>Users</h3>
-                  </div>
-                  <div class="card-body">
-                    <div id="usernames"></div>
-                  </div>
-                </div>
-            
+      <div class="row mx-auto just">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header"></div>
+            <h4>Chattymuz</h4>
+          </div>
+
+          <div id="chat" class="card-body"></div>
+
+          <form id="message-form" class="card-footer">
+            <div class="input-group">
+              <input type="text" id="message" class="form-control" />
+              <div class="input-group-append">
+                <input type="submit" class="btn btn-warning" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="card col-md-3">
+          <div class="card-header">
+            <h3>Users</h3>
+          </div>
+          <div class="card-body">
+            <div id="usernames"></div>
+          </div>
+        </div>
       </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

@@ -10,7 +10,10 @@ const server = http.createServer(app);
 const io = socketio.listen(server);
 
 mongoose
-  .connect("mongodb+srv://Lynx:admin@chattymuz-sfn9y.mongodb.net/test?retryWrites=true&w=majority")
+  // .connect("mongodb://localhost/chattymuz")
+  .connect(
+    "mongodb+srv://Lynx:admin@chattymuz-sfn9y.mongodb.net/test?retryWrites=true&w=majority"
+  )
   .then(db => console.log("db is connected"))
   .catch(err => console.log(err));
 
